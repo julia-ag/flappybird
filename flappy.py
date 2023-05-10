@@ -29,3 +29,14 @@ pipe_space_y_2 = 150
 pipe_x_2 = playing_area_width-pipe_width+200
 
 
+#funcao desenho
+def draw():
+    screen.fill((0,0,0))
+    #fundo da tela
+    screen.draw.filled_rect(
+        Rect(
+            (0,0),
+            (playing_area_width, playing_area_height)
+        ),
+        color=(72, 61, 139)
+    )
