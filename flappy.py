@@ -28,7 +28,6 @@ pipe_space_height_2 = 100
 pipe_space_y_2 = 150
 pipe_x_2 = playing_area_width-pipe_width+200
 
-<<<<<<< HEAD
 
 #funcao desenho
 def draw():
